@@ -1,9 +1,6 @@
-# Secure-Transmission-using-RSA-AES
-
-# Encryption & Decryption Algorithms
+# Secure-Transmission-using-RSA-AES (Encryption & Decryption Algorithms)
 
 ## Under the guidance of Prof. Milind Sohoni
-
 
 ## Abstract
 
@@ -36,27 +33,18 @@ So before devising an algorithm to help Alice, let's look into the basics of Enc
 ## Encryption and Decryption
 
 **Encryption** ​ is a process that encodes a message or file so that it can only be read by
-
 certain people. Encryption uses an algorithm to scramble, or encrypt, data and then
-
 uses a key for the receiving party to unscramble, or decrypt, the information. The
-
 message contained in an encrypted message is referred to as plaintext. In its
-
 encrypted, unreadable form it is referred to as ciphertext.
 
 **Decryption** ​ is a way to change encrypted information back into plaintext. This is the
-
 decrypted form.
 
 **Key** ​: Random string of bits created specifically for scrambling and unscrambling data.
-
 These are used to encrypt and/or decrypt data. Each key is unique and created via
-
 algorithm to make sure it is unpredictable. Longer keys are harder to crack. Common
-
 key lengths are 128 bits for symmetric key algorithms and 2048 bits for public-key
-
 algorithms.
 
 ## Problem Statement:
@@ -64,32 +52,24 @@ algorithms.
 We are trying to model a typical situation in PoK.
 
 The Army outposts regularly want to communicate and exchange sensitive
-
 information, but the data is at risk since it can be intercepted by the adversary.
 
 Data breach is common and while delivering the data, the adversary might steal our
-
 data, interpret it and may use it against us. So we plan to generate a way to secure the
-
 communication among the army outposts.
 
 ## Our solution:
 
 We propose a way through which the army personnel first uses asymmetric
-
 encryption (RSA) to request and receive a key for further secure communication. And
-
 then the army personnel can record an audio message, convert it to hexadecimal and
-
 encrypt this data, use symmetric encryption (AES) and deliver it to his allies.
 
 In layman terms, we, using the above method will try to develop a secure and fast
-
 way of communication among the army outposts which can’t be intercepted by the
-
 adversary.
 
-Understanding the solution in detail:
+**Understanding the solution in detail:**
 
 The sensitive information at the border needs to get delivered as quickly as
 possible to the concerned authorities, which will give them time to plan,
