@@ -92,7 +92,25 @@ Decryption and reconversion of the file then takes place at the other end.
 
 Now, the audio message is ready to be heard on the other side.
 
-**For more details please go through the report.pdf document.**
+**For more details please go through the [report](report.pdf).**
+
+## Instructions:
+
+1. Clone the repository. 
+
+2. Install Pycryptodome package for python using:
+
+	`pip install pycryptodome`
+
+3. Change the input.mp4 file present in the Input folder, to your desired file mp4 and rename it as input.mp4.
+
+    (For the demo, we have kept a song file in the Input folder)
+
+4. Open the terminal in the code directory and input the following command .
+	
+    `python3 secure.py`
+
+5. You will find the decrypted output file in the Output folder.
 
 ## REFERENCES
 
